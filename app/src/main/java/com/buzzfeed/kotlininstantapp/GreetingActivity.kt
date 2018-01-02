@@ -3,7 +3,7 @@ package com.buzzfeed.kotlininstantapp
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
-import com.buzzfeed.kotlininstantapp.model.ActionModel
+import com.buzzfeed.modellibrary.model.ActionModel
 import kotlinx.android.synthetic.main.activity_greeting.*
 
 class GreetingActivity : AppCompatActivity() {
