@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kotlin App</string>
     <string name="kotlin_blocks">Kotlin Blocks</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://www.buzzfeed.com\",\n  }\n}]</string>
 </resources>
