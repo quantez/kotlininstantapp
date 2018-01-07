@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/grey_gradient"
+    android:background="#D4D4D4"
     tools:context="com.buzzfeed.kotlininstantapp.GreetingActivityFragment"
     tools:showIn="@layout/activity_greeting">
 
@@ -20,5 +20,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageViewInstantapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/instant_app_banner"
+        android:scaleType="fitStart"
+        android:src="@drawable/instantapps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/imageViewKotlinBlock"
+        app:layout_constraintTop_toBottomOf="@id/imageViewKotlinBlock"
+        app:layout_constraintVertical_bias="0.085"/>
 
 </android.support.constraint.ConstraintLayout>

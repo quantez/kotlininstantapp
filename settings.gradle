@@ -1,2 +1,4 @@
-include ':greeting-feature', ':app'
+include ':app'
+include ':app-instant'
+include ':greeting-feature'
 include ':modellibrary'
